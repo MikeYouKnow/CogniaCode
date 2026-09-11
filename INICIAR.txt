@@ -1,0 +1,7 @@
+CogniaCode
+
+Requiere Python 3.10 o posterior con Tkinter.
+Abre iniciar.bat para iniciar el programa.
+
+El editor inicia vacío. Escribe tu código o utiliza Abrir.
+F5: analizar. Ctrl+S: guardar. Ctrl+N: nuevo. Ctrl+O: abrir.
