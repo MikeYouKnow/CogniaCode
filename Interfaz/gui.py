@@ -3,8 +3,8 @@ import tkinter as tk
 from tkinter import ttk, filedialog, messagebox
 from pathlib import Path
 from time import perf_counter
-from analyzer import analyze, format_report, RULES, PATTERN, TYPES, normalize
-from ui_components import COLORS as C, Motion, Button, ScrollPanel, Scrollbar, label, blend
+from Compilador.analyzer import analyze, format_report, RULES, PATTERN, TYPES, normalize
+from Interfaz.ui_components import COLORS as C, Motion, Button, ScrollPanel, Scrollbar, label, blend
 
 
 def dark_title(window):

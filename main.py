@@ -2,7 +2,7 @@
 import argparse
 import json
 from pathlib import Path
-from analyzer import analyze, format_report
+from Compilador.analyzer import analyze, format_report
 
 def main():
     parser = argparse.ArgumentParser(description='CogniaCode: prototipo semántico educativo')
@@ -11,7 +11,7 @@ def main():
     parser.add_argument('--json', action='store_true')
     args = parser.parse_args()
     if args.gui:
-        from gui import launch
+        from Interfaz.gui import launch
         launch(); return 0
     import sys
     try:
